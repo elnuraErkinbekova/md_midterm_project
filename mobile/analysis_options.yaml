@@ -1,0 +1,10 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # The original ProductCard uses withOpacity; keep the analyzer quiet about it.
+    deprecated_member_use: ignore
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
